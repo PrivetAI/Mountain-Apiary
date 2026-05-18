@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* Mountain_ApiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* Mountain_ApiaryApp.swift */; };
+		A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* ContentView.swift */; };
+		A1000003 /* ApiaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* ApiaryModels.swift */; };
+		A1000004 /* ApiaryCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* ApiaryCatalog.swift */; };
+		A1000005 /* ApiaryEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* ApiaryEngine.swift */; };
+		A1000006 /* ApiaryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* ApiaryStore.swift */; };
+		A1000007 /* ApiaryShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* ApiaryShapes.swift */; };
+		A1000008 /* ApiaryTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000008 /* ApiaryTheme.swift */; };
+		A1000009 /* ApiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000009 /* ApiaryView.swift */; };
+		A1000010 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000010 /* MarketView.swift */; };
+		A1000011 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000011 /* InventoryView.swift */; };
+		A1000012 /* AlmanacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000012 /* AlmanacView.swift */; };
+		A1000013 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000013 /* MoreView.swift */; };
+		A1000014 /* HiveDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000014 /* HiveDetailView.swift */; };
+		A1000015 /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000015 /* EventCardView.swift */; };
+		A1000016 /* MountainApiaryWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000016 /* MountainApiaryWebPanel.swift */; };
+		A1000017 /* MountainApiaryLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000017 /* MountainApiaryLoadingScreen.swift */; };
+		A1000018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000018 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1000001 /* Mountain_ApiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mountain_ApiaryApp.swift; sourceTree = "<group>"; };
+		B1000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1000003 /* ApiaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiaryModels.swift; sourceTree = "<group>"; };
+		B1000004 /* ApiaryCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiaryCatalog.swift; sourceTree = "<group>"; };
+		B1000005 /* ApiaryEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiaryEngine.swift; sourceTree = "<group>"; };
+		B1000006 /* ApiaryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiaryStore.swift; sourceTree = "<group>"; };
+		B1000007 /* ApiaryShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiaryShapes.swift; sourceTree = "<group>"; };
+		B1000008 /* ApiaryTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiaryTheme.swift; sourceTree = "<group>"; };
+		B1000009 /* ApiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiaryView.swift; sourceTree = "<group>"; };
+		B1000010 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		B1000011 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		B1000012 /* AlmanacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmanacView.swift; sourceTree = "<group>"; };
+		B1000013 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		B1000014 /* HiveDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiveDetailView.swift; sourceTree = "<group>"; };
+		B1000015 /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
+		B1000016 /* MountainApiaryWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainApiaryWebPanel.swift; sourceTree = "<group>"; };
+		B1000017 /* MountainApiaryLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainApiaryLoadingScreen.swift; sourceTree = "<group>"; };
+		B1000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1000019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1000001 /* Mountain Apiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mountain Apiary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G1000001 = {
+			isa = PBXGroup;
+			children = (
+				G1000002 /* Mountain Apiary */,
+				G1000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G1000002 /* Mountain Apiary */ = {
+			isa = PBXGroup;
+			children = (
+				B1000001 /* Mountain_ApiaryApp.swift */,
+				B1000002 /* ContentView.swift */,
+				B1000003 /* ApiaryModels.swift */,
+				B1000004 /* ApiaryCatalog.swift */,
+				B1000005 /* ApiaryEngine.swift */,
+				B1000006 /* ApiaryStore.swift */,
+				B1000007 /* ApiaryShapes.swift */,
+				B1000008 /* ApiaryTheme.swift */,
+				B1000009 /* ApiaryView.swift */,
+				B1000010 /* MarketView.swift */,
+				B1000011 /* InventoryView.swift */,
+				B1000012 /* AlmanacView.swift */,
+				B1000013 /* MoreView.swift */,
+				B1000014 /* HiveDetailView.swift */,
+				B1000015 /* EventCardView.swift */,
+				B1000016 /* MountainApiaryWebPanel.swift */,
+				B1000017 /* MountainApiaryLoadingScreen.swift */,
+				B1000018 /* Assets.xcassets */,
+				B1000019 /* Info.plist */,
+			);
+			path = "Mountain Apiary";
+			sourceTree = "<group>";
+		};
+		G1000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1000001 /* Mountain Apiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T1000001 /* Mountain Apiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = L1000001 /* Build configuration list for PBXNativeTarget "Mountain Apiary" */;
+			buildPhases = (
+				P1000001 /* Sources */,
+				F1000001 /* Frameworks */,
+				R1000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mountain Apiary";
+			productName = "Mountain Apiary";
+			productReference = C1000001 /* Mountain Apiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJECT_OBJ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					T1000001 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = L1000002 /* Build configuration list for PBXProject "Mountain Apiary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G1000001;
+			productRefGroup = G1000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T1000001 /* Mountain Apiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R1000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		P1000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* Mountain_ApiaryApp.swift in Sources */,
+				A1000002 /* ContentView.swift in Sources */,
+				A1000003 /* ApiaryModels.swift in Sources */,
+				A1000004 /* ApiaryCatalog.swift in Sources */,
+				A1000005 /* ApiaryEngine.swift in Sources */,
+				A1000006 /* ApiaryStore.swift in Sources */,
+				A1000007 /* ApiaryShapes.swift in Sources */,
+				A1000008 /* ApiaryTheme.swift in Sources */,
+				A1000009 /* ApiaryView.swift in Sources */,
+				A1000010 /* MarketView.swift in Sources */,
+				A1000011 /* InventoryView.swift in Sources */,
+				A1000012 /* AlmanacView.swift in Sources */,
+				A1000013 /* MoreView.swift in Sources */,
+				A1000014 /* HiveDetailView.swift in Sources */,
+				A1000015 /* EventCardView.swift in Sources */,
+				A1000016 /* MountainApiaryWebPanel.swift in Sources */,
+				A1000017 /* MountainApiaryLoadingScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BUILDCONFIG_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BUILDCONFIG_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		TARGETCONFIG_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Mountain Apiary/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mountain Apiary";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.apiary;
+				PRODUCT_NAME = "Mountain Apiary";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		TARGETCONFIG_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Mountain Apiary/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mountain Apiary";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.apiary;
+				PRODUCT_NAME = "Mountain Apiary";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		L1000001 /* Build configuration list for PBXNativeTarget "Mountain Apiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				TARGETCONFIG_DEBUG /* Debug */,
+				TARGETCONFIG_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		L1000002 /* Build configuration list for PBXProject "Mountain Apiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BUILDCONFIG_DEBUG /* Debug */,
+				BUILDCONFIG_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJECT_OBJ /* Project object */;
+}
