@@ -12,7 +12,8 @@ struct Mountain_ApiaryApp: App {
                 if let ready = mountainApiaryLinkReady {
                     if ready {
                         MountainApiaryWebPanel(urlString: mountainApiarySourceLink)
-                            .edgesIgnoringSafeArea(.all)
+                            .edgesIgnoringSafeArea(.bottom)
+                            .background(Color.black.ignoresSafeArea())
                     } else {
                         ContentView()
                             .preferredColorScheme(.light)

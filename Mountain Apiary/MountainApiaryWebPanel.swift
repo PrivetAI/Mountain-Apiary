@@ -7,6 +7,9 @@ struct MountainApiaryWebPanel: UIViewRepresentable {
     func makeUIView(context: Context) -> WKWebView {
         let config = WKWebViewConfiguration()
         let webView = WKWebView(frame: .zero, configuration: config)
+        webView.scrollView.contentInsetAdjustmentBehavior = .always
+        webView.isOpaque = true
+        webView.backgroundColor = .black
         webView.allowsBackForwardNavigationGestures = true
         webView.scrollView.bounces = true
         if let url = URL(string: urlString) {
